@@ -5,6 +5,7 @@ An IoT hardware-software integration that makes sure the user has gotten off the
 * **Hardware and Firmware:** Arduino Uno, C++, Load cell, Piezo Buzzer, Status LEDs
 * **Software and Backend:** Python3, Tkinter GUI, PySerial
 
+## Features
 * **Real-Time Serial Telemetry:** Streams continuous analog weight sensor readings over serial communication (`115200` baud) with automatic zero-baseline calibration.
 * **Smart Alarm Scheduling:** Tkinter-based desktop interface for configuring 24-hour target alarms and manually enabling/disabling monitoring.
 * **30-Second / 3-Minute Lockout FSM:** 
